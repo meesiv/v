@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study App - تجربة الواجهة</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="top-bar">
+        <div class="logo">Study App</div>
+        <div class="subtitle">الصف السادس العلمي</div>
+    </header>
+
+    <main class="container">
+        <!-- هذه الواجهة الرئيسية -->
+        <div id="home-screen">
+            <h1 class="page-title">المواد الدراسية</h1>
+            <div class="subjects-grid" id="subjects-list"></div>
+        </div>
+
+        <!-- هذه الواجهة التي تظهر عند الضغط على مادة -->
+        <div id="subject-screen" style="display: none;">
+            <button id="back-btn" class="back-btn">← رجوع للرئيسية</button>
+            <h1 id="subject-title" class="page-title"></h1>
+            <div id="sections-list" class="list-grid"></div>
+        </div>
+    </main>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

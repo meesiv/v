@@ -1,0 +1,9 @@
+body { font-family: sans-serif; background: #f8fafc; margin: 0; padding: 0; direction: rtl; }
+.top-bar { background: #1e293b; color: white; padding: 20px; text-align: center; }
+.container { padding: 20px; max-width: 600px; margin: auto; }
+.subjects-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.subject-card { background: white; padding: 20px; text-align: center; border-radius: 10px; border: 1px solid #ddd; cursor: pointer; }
+.subject-card:hover { border-color: #1e293b; background: #f1f5f9; }
+.back-btn { background: none; border: none; color: #64748b; font-size: 16px; cursor: pointer; margin-bottom: 15px; }
+.list-grid { display: flex; flex-direction: column; gap: 10px; }
+.list-card { background: white; padding: 15px; border-radius: 8px; border: 1px solid #ddd; cursor: pointer; }
